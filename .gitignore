@@ -1,0 +1,25 @@
+# Godot-specific ignores
+.godot/
+.import/
+export_presets.cfg  
+
+# Imported resources (generated from source files)
+*.translation
+
+# Mono/C# specifics (if using the .NET version)
+.mono/
+bin/
+obj/
+dotnet/
+MSBuild/
+*.sln
+*.csproj
+
+# Editor-specific local settings
+.fscache
+.pck
+.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
